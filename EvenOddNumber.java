@@ -7,6 +7,7 @@ class EvenOddNumber
 		if (number==0)
 		{
 			System.out.println("Wrong Number");
+			System.out.println("Test");
 		}
 		else if(number%2==0)
 		{
