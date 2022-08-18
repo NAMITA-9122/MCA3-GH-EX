@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+class UserInput
+{
+
+	public static void main(String[] args)
+	{
+		Scanner s=new Scanner(System.in);
+		
+		System.out.println("\t\t Enter your Detail\t\t");
+	
+		System.out.println("Ente your Name");
+		String name=s.next();
+		
+		System.out.println("Enter your Gender");
+		char gender=s.next().charAt(0);
+		
+		System.out.println("Enter your Age");
+		int age=s.nextInt();
+		
+		System.out.println("Enter your Mobile Number");
+		Long mob=s.nextLong();
+		
+	}
+}
